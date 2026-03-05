@@ -2,9 +2,9 @@
   "name": "dsnlu-present",
   "version": "1.0.0",
   "scripts": {
-    "build-backend": "cd Backend/dsnlu-backend && npm install && npm run build",
+    "build-backend": "cd Backend && npm install && npm run build",
     "build-frontend": "cd Frontend && npm install && npm run build",
     "build": "npm run build-backend && npm run build-frontend",
-    "start": "node Backend/dsnlu-backend/dist/server.js"
+    "start": "node Backend/dist/server.js"
   }
 }
