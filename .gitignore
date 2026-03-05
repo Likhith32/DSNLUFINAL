@@ -4,9 +4,9 @@ Backend/node_modules/
 Frontend/node_modules/
 
 # Production
-dist/
-Backend/dist/
-Frontend/dist/
+# dist/
+# Backend/dist/
+# Frontend/dist/
 
 # Environment
 .env
